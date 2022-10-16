@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EFA1F0D28A8A84500BE2CC7 /* RockPaperScissorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA1F0C28A8A84500BE2CC7 /* RockPaperScissorsApp.swift */; };
+		0EFA1F0D28A8A84500BE2CC7 /* Challenge2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA1F0C28A8A84500BE2CC7 /* Challenge2App.swift */; };
 		0EFA1F0F28A8A84500BE2CC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA1F0E28A8A84500BE2CC7 /* ContentView.swift */; };
 		0EFA1F1128A8A84700BE2CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFA1F1028A8A84700BE2CC7 /* Assets.xcassets */; };
 		0EFA1F1428A8A84700BE2CC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFA1F1328A8A84700BE2CC7 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0EFA1F0928A8A84500BE2CC7 /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EFA1F0C28A8A84500BE2CC7 /* RockPaperScissorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsApp.swift; sourceTree = "<group>"; };
+		0EFA1F0928A8A84500BE2CC7 /* Challenge2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Challenge2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EFA1F0C28A8A84500BE2CC7 /* Challenge2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge2App.swift; sourceTree = "<group>"; };
 		0EFA1F0E28A8A84500BE2CC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0EFA1F1028A8A84700BE2CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EFA1F1328A8A84700BE2CC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		0EFA1F0028A8A84500BE2CC7 = {
 			isa = PBXGroup;
 			children = (
-				0EFA1F0B28A8A84500BE2CC7 /* RockPaperScissors */,
+				0EFA1F0B28A8A84500BE2CC7 /* Challenge2 */,
 				0EFA1F0A28A8A84500BE2CC7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,20 @@
 		0EFA1F0A28A8A84500BE2CC7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0EFA1F0928A8A84500BE2CC7 /* RockPaperScissors.app */,
+				0EFA1F0928A8A84500BE2CC7 /* Challenge2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0EFA1F0B28A8A84500BE2CC7 /* RockPaperScissors */ = {
+		0EFA1F0B28A8A84500BE2CC7 /* Challenge2 */ = {
 			isa = PBXGroup;
 			children = (
-				0EFA1F0C28A8A84500BE2CC7 /* RockPaperScissorsApp.swift */,
+				0EFA1F0C28A8A84500BE2CC7 /* Challenge2App.swift */,
 				0EFA1F0E28A8A84500BE2CC7 /* ContentView.swift */,
 				0EFA1F1028A8A84700BE2CC7 /* Assets.xcassets */,
 				0EFA1F1228A8A84700BE2CC7 /* Preview Content */,
 			);
-			path = RockPaperScissors;
+			path = Challenge2;
 			sourceTree = "<group>";
 		};
 		0EFA1F1228A8A84700BE2CC7 /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0EFA1F0828A8A84500BE2CC7 /* RockPaperScissors */ = {
+		0EFA1F0828A8A84500BE2CC7 /* Challenge2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EFA1F1728A8A84700BE2CC7 /* Build configuration list for PBXNativeTarget "RockPaperScissors" */;
+			buildConfigurationList = 0EFA1F1728A8A84700BE2CC7 /* Build configuration list for PBXNativeTarget "Challenge2" */;
 			buildPhases = (
 				0EFA1F0528A8A84500BE2CC7 /* Sources */,
 				0EFA1F0628A8A84500BE2CC7 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = RockPaperScissors;
+			name = Challenge2;
 			productName = RockPaperScissors;
-			productReference = 0EFA1F0928A8A84500BE2CC7 /* RockPaperScissors.app */;
+			productReference = 0EFA1F0928A8A84500BE2CC7 /* Challenge2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0EFA1F0428A8A84500BE2CC7 /* Build configuration list for PBXProject "RockPaperScissors" */;
+			buildConfigurationList = 0EFA1F0428A8A84500BE2CC7 /* Build configuration list for PBXProject "Challenge2" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0EFA1F0828A8A84500BE2CC7 /* RockPaperScissors */,
+				0EFA1F0828A8A84500BE2CC7 /* Challenge2 */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EFA1F0F28A8A84500BE2CC7 /* ContentView.swift in Sources */,
-				0EFA1F0D28A8A84500BE2CC7 /* RockPaperScissorsApp.swift in Sources */,
+				0EFA1F0D28A8A84500BE2CC7 /* Challenge2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +266,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RockPaperScissors/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Challenge2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,7 +279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.edmondwang.RockPaperScissors;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edmondwang.Challenge2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -294,7 +294,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RockPaperScissors/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Challenge2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.edmondwang.RockPaperScissors;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edmondwang.Challenge2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0EFA1F0428A8A84500BE2CC7 /* Build configuration list for PBXProject "RockPaperScissors" */ = {
+		0EFA1F0428A8A84500BE2CC7 /* Build configuration list for PBXProject "Challenge2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0EFA1F1528A8A84700BE2CC7 /* Debug */,
@@ -327,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0EFA1F1728A8A84700BE2CC7 /* Build configuration list for PBXNativeTarget "RockPaperScissors" */ = {
+		0EFA1F1728A8A84700BE2CC7 /* Build configuration list for PBXNativeTarget "Challenge2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0EFA1F1828A8A84700BE2CC7 /* Debug */,

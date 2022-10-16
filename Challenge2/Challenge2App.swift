@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct RockPaperScissorsApp: App {
+struct Challenge2: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
